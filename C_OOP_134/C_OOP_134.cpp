@@ -26,12 +26,23 @@ public:
         cin >> sks;
     }
     void tampil() {
-
+        cout << "Kode Matakuliah : " << kode;
+        cout << "Nama Matakuliah : " << namaM;
+        cout << "SKS : " << sks;
     }
 };
 
 int main()
 {
-    std::cout << "Hello World!\n";
-}
+    Mahasiswa mhs1;
+    Matakuliah mk;
 
+    cout << "Masukan NIM : ";
+    cout << mhs1.nim;
+    cout << "Masukan Nama : ";
+    cin >> mhs1.nama;
+    mhs1.cetak();
+
+    mk.input();
+    mk.tampil();
+}
