@@ -5,7 +5,7 @@ class Mahasiswa {
 public:
     string nim;
     string nama; 
-public: void cetak() {
+public: void cetak() { 
     cout << "NIM = " << nim;
     cout << "\nNama = " << nama;
     }
@@ -18,7 +18,7 @@ private:
     int sks;
 public:
     void input() {
-        
+        cout << "Masukan Kode Matakuliah : ";
     }
 };
 
