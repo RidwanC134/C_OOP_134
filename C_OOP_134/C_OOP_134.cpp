@@ -19,6 +19,14 @@ private:
 public:
     void input() { 
         cout << "Masukan Kode Matakuliah : ";
+        cin >> kode;
+        cout << "Masukan Nama Matakuliah : ";
+        cin >> namaM;
+        cout << "Jumlah SKS : ";
+        cin >> sks;
+    }
+    void tampil() {
+
     }
 };
 
