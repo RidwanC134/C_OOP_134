@@ -6,7 +6,7 @@ public:
     string nim;
     string nama; 
 public: void cetak() { 
-    cout << "NIM = " << nim;
+    cout << "\nNIM = " << nim;
     cout << "\nNama = " << nama;
     }
 };
@@ -18,11 +18,11 @@ private:
     int sks;
 public:
     void input() { 
-        cout << "\nMasukan Kode Matakuliah : ";
+        cout << "\n\nMasukan Kode Matakuliah : ";
         cin >> kode;
-        cout << "\nMasukan Matakuliah : ";
+        cout << "Masukan Matakuliah : ";
         cin >> namaM;
-        cout << "\nJumlah SKS : ";
+        cout << "Jumlah SKS : ";
         cin >> sks;
     }
     void tampil() {
@@ -39,10 +39,10 @@ int main()
 
     cout << "Masukan NIM : ";
     cin >> mhs1.nim;
-    cout << "Masukan Nama : ";
+    cout << "Masukan Nama : "; 
     cin >> mhs1.nama;
     mhs1.cetak();
 
     mk.input();
     mk.tampil();
-}
+} 
