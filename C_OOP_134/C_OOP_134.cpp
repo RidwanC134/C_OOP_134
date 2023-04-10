@@ -17,7 +17,7 @@ private:
     string namaM;
     int sks;
 public:
-    void input() {
+    void input() { 
         cout << "Masukan Kode Matakuliah : ";
     }
 };
